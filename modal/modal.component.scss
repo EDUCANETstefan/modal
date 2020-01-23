@@ -1,0 +1,26 @@
+.modal {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: rgb(0, 0, 0, .80);
+}
+.close{
+  float: right;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.close:hover{
+  color: red;
+}
+
+.box{
+  box-shadow: 0px 0px 10px #cccccc;
+  border-width: 2px;
+  padding: 16px;
+  height: 200px;
+  width: 400px;
+  background-color: white;
+}
